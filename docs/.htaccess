@@ -1,0 +1,15 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Redirect permanent https://isaraw.github.io/adrien-grimmeau https://isaraw.github.io/graffiti
+Redirect permanent https://isaraw.github.io/adrien-grimmeau https://isaraw.github.io/brigiotti
+Redirect permanent https://isaraw.github.io/Analytics https://isaraw.github.io/analyticssubdomains
+
+Redirect permanent https://isaraw.github.io/aow-case-study https://isaraw.github.io/facebookcampaign
+Redirect permanent https://isaraw.github.io/a-terrible-beauty https://isaraw.github.io/terriblebeauty
+Redirect permanent https://isaraw.github.io/bacons-gamble https://isaraw.github.io/baconsgamble
+
+Redirect permanent https://isaraw.github.io/ballad https://isaraw.github.io/webdesign
+Redirect permanent https://isaraw.github.io/blog1 https://isaraw.github.io/articles
+Redirect permanent https://isaraw.github.io/blog2 https://isaraw.github.io/articles
+order deny,allow
